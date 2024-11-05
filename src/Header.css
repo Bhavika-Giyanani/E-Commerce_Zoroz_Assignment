@@ -1,0 +1,40 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* padding-top: 1rem; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header figure {
+  margin-top: 1rem;
+}
+header figure img {
+  width: 7rem;
+  font-size: clamp(4.5rem, 3.587rem + 4.5652vw, 15rem);
+  height: 2rem;
+  height: clamp(1.5rem, 1.1957rem + 1.5217vw, 5rem);
+}
+
+form input {
+  width: 30rem;
+  height: 7vh;
+  border-radius: 5px;
+}
+.daily-options {
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in,
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
